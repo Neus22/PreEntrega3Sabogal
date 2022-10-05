@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#header {
+  background-color: black;
+  padding: 10px 10px 0px 10px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: auto;
+}
+#header .logo img {
+  width: 110px;
+  height: auto;
+}
+#header .menu {
+  justify-self: start;
+}
+#header .menu ul {
+  display: flex;
+  list-style: none;
+  margin-top: 20px;
+}
+#header .menu ul li a {
+  text-decoration: none;
+  color: #08fefd;
+  padding: 10px 20px;
+  border: 1px solid white;
+  margin: 0 10px;
+}
+#header .menu ul li a:hover {
+  color: #4b4949;
+  background-color: #08fefd;
+  border: solid 1px black;
+}
+
+#principal {
+  padding: 15px;
+  background-color: gray;
+}
+#principal #carouselExampleCaptions .carousel-inner p a {
+  background-color: gray;
+  text-decoration: none;
+  border: solid 1px white;
+  padding: 7px 12px;
+  color: #08fefd;
+  font-size: 25px;
+}
+#principal #carouselExampleCaptions .carousel-inner p a:hover {
+  background-color: #08fefd;
+  color: black;
+}/*# sourceMappingURL=main.css.map */

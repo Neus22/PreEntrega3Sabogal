@@ -1,0 +1,21 @@
+#principal {
+    padding: 15px;
+    background-color: gray;
+    #carouselExampleCaptions{
+        .carousel-inner{
+            p a {
+                background-color: gray;
+                text-decoration: none;
+                border: solid 1px white;
+                padding: 7px 12px;
+                color: $color1;
+                font-size: 25px;
+            }
+            p a:hover {
+                background-color: $color1;
+                color: black;
+            }
+
+        }
+    }
+}

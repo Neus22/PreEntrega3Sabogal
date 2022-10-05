@@ -1,0 +1,35 @@
+#header {
+    background-color: black;
+    padding: 10px 10px 0px 10px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto;
+    .logo img{
+        width: 110px;
+        height: auto;
+    }
+    .menu {
+        justify-self: start;
+        ul{
+            display: flex;
+            list-style: none;
+            margin-top: 20px;
+            li {
+                a {
+                    text-decoration: none;
+                    color: #08fefd;
+                    padding: 10px 20px;
+                    border: 1px solid white;
+                    margin: 0 10px;
+                    
+                }
+                a:hover {
+                    color: #4b4949;
+                    background-color: #08fefd;
+                    border: solid 1px black;
+                }
+            }
+        }       
+    }
+
+}
