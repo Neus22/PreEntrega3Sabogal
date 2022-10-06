@@ -6,8 +6,17 @@
 }
 
 $color1: #08fefd;
+$color2: gray;
+$color3: white;
+body {
+    background-color: black
+}
 
 @import "header";
 @import "mn";
-
-
+@import "section";
+@import "aside";
+@import "footer";
+@import "armas";
+@import "rango";
+@import "clasificatorias";

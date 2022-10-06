@@ -1,0 +1,173 @@
+#weapons {
+    background-color: $color2;
+    margin: 10px;
+    .mejor {
+        text-align: center;
+        h1 {
+            padding: 5px 0;
+            color: $color1;
+        }
+        p {
+            color: $color3;
+            padding: 10px;
+        }
+    }
+}
+#skewer {
+    background-color: $color2;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    .ske {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        h2 {
+            color: $color1;
+            margin: 10px;
+        }
+        p {
+            color: $color3;
+            padding: 10px;
+        }
+    }
+    .skei {
+        img {
+            width: 100%;
+            padding: 5px;
+        }
+    }
+}
+#rifle {
+    background-color: $color2;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    .batalla {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        h2 {
+            color: $color1;
+            text-align: center;
+            margin: 10px;
+        }
+        p {
+            color: $color3;
+            padding: 10px;
+            
+        }
+    }
+    .riflei {
+        img {
+            width: 100%;
+            padding: 5px;
+        }
+    }
+}
+#rayo {
+    background-color: $color2;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    .termico {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        h2 {
+            color: $color1;
+            margin: 10px;
+        }
+        p {
+            color: $color3;
+            padding: 10px;
+        }
+    }
+    .rayoi {
+        img {
+            width: 100%;
+            padding: 5px;
+        }
+    }
+}
+#lanza {
+    background-color: $color2;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    .cohete {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        h2 {
+            color: $color1;
+            margin: 10px;
+        }
+        p {
+            color: $color3;
+            padding: 10px;
+        }
+    }
+    .lanzai {
+        img {
+            width: 100%;
+            padding: 5px;
+        }
+    }
+}
+#asalto {
+    background-color: $color2;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    .deAsalto {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        h2 {
+            color: $color1;
+            margin: 10px;
+        }
+        p {
+            color: $color3;
+            padding: 10px;
+        }
+    }
+    .asaltoi {
+        img {
+            width: 100%;
+            padding: 5px;
+        }
+    }
+}
+#espada {
+    background-color: $color2;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .energia {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        h2{
+            color: $color1;
+            margin: 10px;
+        }
+        p {
+            color: $color3;
+            padding: 5px;
+        }
+    }
+    .espadai {
+        img {
+            width: 100%;
+            padding: 5px;
+        }
+    }
+}

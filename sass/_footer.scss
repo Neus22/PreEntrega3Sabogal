@@ -1,0 +1,29 @@
+#redes {
+    width: 100%;
+    .logosRedes {
+        margin: 10px;
+        .face {
+            display: inline;
+            a img {
+                width: 5%;
+            }
+        }
+        .ins {
+            display: inline;
+            a img {
+                width: 5%;
+            }
+        }
+        .twi {
+            display: inline;
+            a img {
+                width: 5%;
+            }
+        }
+    }
+    .copy {
+        color: $color3;
+        text-align: center;
+    }
+
+}

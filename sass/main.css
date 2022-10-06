@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: black;
+}
+
 #header {
   background-color: black;
   padding: 10px 10px 0px 10px;
@@ -40,6 +44,7 @@
 #principal {
   padding: 15px;
   background-color: gray;
+  margin: 10px;
 }
 #principal #carouselExampleCaptions .carousel-inner p a {
   background-color: gray;
@@ -52,4 +57,326 @@
 #principal #carouselExampleCaptions .carousel-inner p a:hover {
   background-color: #08fefd;
   color: black;
+}
+
+#armas {
+  background-color: gray;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  justify-items: center;
+  margin: 10px 10px 0 10px;
+}
+#armas .imgArma a img {
+  width: 100%;
+}
+#armas .armaPri {
+  text-align: center;
+}
+#armas .armaPri h2 {
+  color: #08fefd;
+}
+#armas .armaPri p {
+  color: white;
+}
+
+#tips {
+  background-color: gray;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  text-align: center;
+  margin: 0 10px 10px 10px;
+}
+#tips h2 {
+  color: #08fefd;
+}
+#tips p {
+  color: white;
+}
+
+#apex a img {
+  width: 15%;
+  height: auto;
+  margin: 0px 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#redes {
+  width: 100%;
+}
+#redes .logosRedes {
+  margin: 10px;
+}
+#redes .logosRedes .face {
+  display: inline;
+}
+#redes .logosRedes .face a img {
+  width: 5%;
+}
+#redes .logosRedes .ins {
+  display: inline;
+}
+#redes .logosRedes .ins a img {
+  width: 5%;
+}
+#redes .logosRedes .twi {
+  display: inline;
+}
+#redes .logosRedes .twi a img {
+  width: 5%;
+}
+#redes .copy {
+  color: white;
+  text-align: center;
+}
+
+#weapons {
+  background-color: gray;
+  margin: 10px;
+}
+#weapons .mejor {
+  text-align: center;
+}
+#weapons .mejor h1 {
+  padding: 5px 0;
+  color: #08fefd;
+}
+#weapons .mejor p {
+  color: white;
+  padding: 10px;
+}
+
+#skewer {
+  background-color: gray;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+#skewer .ske {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+#skewer .ske h2 {
+  color: #08fefd;
+  margin: 10px;
+}
+#skewer .ske p {
+  color: white;
+  padding: 10px;
+}
+#skewer .skei img {
+  width: 100%;
+  padding: 5px;
+}
+
+#rifle {
+  background-color: gray;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+#rifle .batalla {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+#rifle .batalla h2 {
+  color: #08fefd;
+  text-align: center;
+  margin: 10px;
+}
+#rifle .batalla p {
+  color: white;
+  padding: 10px;
+}
+#rifle .riflei img {
+  width: 100%;
+  padding: 5px;
+}
+
+#rayo {
+  background-color: gray;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+#rayo .termico {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+#rayo .termico h2 {
+  color: #08fefd;
+  margin: 10px;
+}
+#rayo .termico p {
+  color: white;
+  padding: 10px;
+}
+#rayo .rayoi img {
+  width: 100%;
+  padding: 5px;
+}
+
+#lanza {
+  background-color: gray;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+#lanza .cohete {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+#lanza .cohete h2 {
+  color: #08fefd;
+  margin: 10px;
+}
+#lanza .cohete p {
+  color: white;
+  padding: 10px;
+}
+#lanza .lanzai img {
+  width: 100%;
+  padding: 5px;
+}
+
+#asalto {
+  background-color: gray;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+}
+#asalto .deAsalto {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+#asalto .deAsalto h2 {
+  color: #08fefd;
+  margin: 10px;
+}
+#asalto .deAsalto p {
+  color: white;
+  padding: 10px;
+}
+#asalto .asaltoi img {
+  width: 100%;
+  padding: 5px;
+}
+
+#espada {
+  background-color: gray;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#espada .energia {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+#espada .energia h2 {
+  color: #08fefd;
+  margin: 10px;
+}
+#espada .energia p {
+  color: white;
+  padding: 5px;
+}
+#espada .espadai img {
+  width: 100%;
+  padding: 5px;
+}
+
+#rango {
+  background-color: gray;
+  text-align: center;
+  margin: 10px;
+}
+#rango .nivel {
+  margin: 10px;
+  padding-top: 5px;
+}
+#rango .nivel h1 {
+  color: #08fefd;
+  margin: 10px;
+  padding: 10px;
+}
+#rango .nivel p {
+  color: white;
+  margin: 10px;
+}
+#rango .nivel ul li {
+  list-style: none;
+  color: white;
+  margin: 10px;
+}
+#rango .img img {
+  width: 100%;
+  padding: 10px;
+}
+
+#arena {
+  background-color: gray;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#arena .clasi {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+#arena .clasi h1 {
+  color: #08fefd;
+  margin: 10px;
+}
+#arena .clasi p {
+  color: white;
+  padding: 15px;
+}
+#arena .fica img {
+  width: 100%;
+  padding: 5px;
+}
+
+#clasificatoria {
+  background-color: gray;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#clasificatoria .toria {
+  align-self: center;
+  justify-self: center;
+  text-align: center;
+}
+#clasificatoria .toria p {
+  color: white;
+}
+#clasificatoria .clasiImg img {
+  width: 100%;
+  padding: 5px;
+}
+
+#asesino {
+  margin: 10px;
+  text-align: center;
+  background-color: gray;
+}
+#asesino .bola p {
+  color: white;
+  padding: 10px;
 }/*# sourceMappingURL=main.css.map */

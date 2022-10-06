@@ -1,0 +1,38 @@
+#armas{
+    background-color: $color2;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-items: center;
+    margin: 10px 10px 0 10px;
+    .imgArma{
+        a img {
+            width: 100%;
+        }
+    }
+    .armaPri {
+        text-align: center;
+        h2 {
+            color: $color1;
+        }
+        p {
+            color: $color3;
+        }
+    }
+
+}
+#tips {
+    background-color: $color2;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    margin: 0 10px 10px 10px;
+    h2 {
+        color: $color1;
+    }
+    p {
+        color: $color3;
+    }
+}

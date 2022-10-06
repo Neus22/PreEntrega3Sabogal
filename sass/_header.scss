@@ -17,7 +17,7 @@
             li {
                 a {
                     text-decoration: none;
-                    color: #08fefd;
+                    color: $color1;
                     padding: 10px 20px;
                     border: 1px solid white;
                     margin: 0 10px;
@@ -25,7 +25,7 @@
                 }
                 a:hover {
                     color: #4b4949;
-                    background-color: #08fefd;
+                    background-color: $color1;
                     border: solid 1px black;
                 }
             }

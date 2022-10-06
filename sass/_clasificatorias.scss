@@ -1,0 +1,56 @@
+#arena {
+    background-color: $color2;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .clasi {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        h1{
+            color: $color1;
+            margin: 10px;
+        }
+        p {
+            color: $color3;
+            padding: 15px
+        }
+    }
+    .fica {
+        img {
+            width: 100%;
+            padding: 5px;
+        }
+    }
+}
+#clasificatoria {
+    background-color: $color2;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .toria {
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        p {
+            color: $color3;
+        }
+    }
+    .clasiImg {
+        img {
+            width: 100%;
+            padding: 5px;
+        }
+    }
+}
+#asesino {
+    margin: 10px;
+    text-align: center;
+    background-color: $color2;
+    .bola {
+        p {
+            color: $color3;
+            padding: 10px;
+        }
+    }
+}

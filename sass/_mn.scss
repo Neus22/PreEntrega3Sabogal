@@ -1,10 +1,11 @@
 #principal {
     padding: 15px;
     background-color: gray;
+    margin: 10px;
     #carouselExampleCaptions{
         .carousel-inner{
             p a {
-                background-color: gray;
+                background-color: $color2;
                 text-decoration: none;
                 border: solid 1px white;
                 padding: 7px 12px;
